@@ -1,0 +1,55 @@
+.calculator {
+    width: 90%;
+    height: 80%;
+}
+
+/* @media queries */
+
+/* xs */
+@media (min-width: 475px) {
+.calculator {
+    width: 80%;
+    height: 80%;
+}
+
+}
+
+/* sm */
+@media (min-width: 640px) {
+ .calculator {
+    width: 70%;
+    height: 80%;
+}
+}
+
+/* md */
+@media (min-width: 768px) {
+ .calculator {
+    width: 70%;
+    height: 80%;
+}
+}
+
+/* lg */
+@media (min-width: 1024px) {
+ .calculator {
+    width: 50%;
+    height: 90%;
+}
+}
+
+/* xl */
+@media (min-width: 1280px) {
+ .calculator {
+    width: 40%;
+    height: 90%;
+}
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+ .calculator {
+    width: 30%;
+    height: 90%;
+}
+}
