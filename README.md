@@ -10,8 +10,8 @@
 
 ## Overview
 Hi,
- 
-I'm Prisca RENO, a Fullstack Web Developper & IT Programmer.
+
+I'm Prisca E. RENO, a Fullstack Web Developper & IT Programmer.
 Here you'll find a simple calculator project using Javascript
 
 ## Built With
@@ -25,3 +25,4 @@ Here you'll find a simple calculator project using Javascript
 Drawing with Figma:
 
 https://www.figma.com/design/FIHHep7SYoQBNdlUOsB60T/Calculator?node-id=0-1&node-type=canvas&t=Gfy9NvPxZKcfWOel-0
+
