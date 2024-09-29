@@ -6,10 +6,6 @@
 
 [Built With](#built-with)
 
-[Features](#features)
-
-[Contact](#contact)
-
 ## Overview
 Hi, 
 I'm Prisca RENO, a Fullstack Web Developper & IT Programmer.
