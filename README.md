@@ -1,4 +1,4 @@
-# Calculate with Javascript
+# Calculator with Javascript
 
 ## Table of Contents
 
