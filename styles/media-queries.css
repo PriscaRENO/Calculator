@@ -36,6 +36,23 @@
     width: 50%;
     height: 90%;
 }
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-self: center;
+    width: 96%;
+    height: 70%;
+    gap: 5px;
+    font-size: var(--size-2xl); 
+}
+
+.equal {
+    grid-column: span 2;
+    background-color: var(--clr--lime600);
+    color: var(--clr-slate50);
+    font-size: var(--size-2xl);
+}
 }
 
 /* xl */
@@ -49,7 +66,7 @@
 /* 2xl */
 @media (min-width: 1536px) {
  .calculator {
-    width: 30%;
+    width: 40%;
     height: 90%;
 }
 }
