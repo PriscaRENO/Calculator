@@ -1,6 +1,6 @@
 .calculator {
-    width: 90%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
 
 /* @media queries */
@@ -18,15 +18,15 @@
 @media (min-width: 640px) {
  .calculator {
     width: 70%;
-    height: 80%;
+    height: 90%;
 }
 }
 
 /* md */
 @media (min-width: 768px) {
  .calculator {
-    width: 70%;
-    height: 80%;
+    width: 60%;
+    height: 90%;
 }
 }
 
@@ -35,23 +35,6 @@
  .calculator {
     width: 50%;
     height: 90%;
-}
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-self: center;
-    width: 96%;
-    height: 70%;
-    gap: 5px;
-    font-size: var(--size-2xl); 
-}
-
-.equal {
-    grid-column: span 2;
-    background-color: var(--clr--lime600);
-    color: var(--clr-slate50);
-    font-size: var(--size-2xl);
 }
 }
 
