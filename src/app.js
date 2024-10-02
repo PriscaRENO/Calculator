@@ -43,10 +43,11 @@ const calculate = (value) => {
                if (isResultDisplayed) {
                 screen.textContent = '';
                 isResultDisplayed = false; 
+               }
                 const indexEventKey = listEventKey.indexOf(value);
                 const key = buttons[indexEventKey];
                  screen.textContent += key.textContent;
-                }
+            
         }
     }
 }
