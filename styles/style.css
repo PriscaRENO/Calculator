@@ -6,7 +6,6 @@
     --clr-slate50: #f8fafc;
     --clr--lime600: #65a30d;
     --clr-orange400: #fb923c;
-    --clr-fushia200: #f5d0fe;
  
     /* Font sizes */
     --size-lg: 1.125rem;
@@ -14,6 +13,12 @@
     --size-2xl: 1.5rem;
     --size-3xl: 1.875rem;
     --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
 }
 
 /* global styles */
@@ -23,7 +28,7 @@ body {
     align-items: center;
     max-width: 100vw;
     height: 100vh;
-    background-color: var(--clr-fushia200);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     font-family: sans-serif;
 }
 
@@ -31,20 +36,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
-    height: 70%;
-    border: 5px solid var(--clr-dark);
+    width: 30%;
+    height: 90%;
+    padding: 15px;
     border-radius: 10px;
     background-color: var(--clr-dark);
-    gap: 7px;
+    gap: 15px;
 }
 
 .screen {
     display: flex;
-    position: relative;
-    width: 98%;
-    height: 28%;
-    border: 7px solid var(--clr-dark);
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 25px;
+    font-size: var(--size-6xl);
+    width: 100%;
+    height: 30%;
     background-color: var(--clr-sky300);
     border-radius: 10px;
 }
@@ -53,29 +60,36 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-self: center;
-    width: 96%;
+    width: 100%;
     height: 70%;
     gap: 7px;
-    font-size: var(--size-xl);  
+    font-size: var(--size-2xl);  
     
 }
 
 button {
     background-color: var(--clr-slate50);
-    border: 1px solid var(--clr-dark);
+    border: none;
     border-radius: 10px;
     font-weight: 700;
-    box-shadow: 0px 1.5px 1px white;
+    box-shadow: 0px 3px 1px #a8a8a8;
 }
 
-.delete {
+button:active {
+    box-shadow: 0 1px #a8a8a8;
+    transform: translateY(2px);
+}
+
+button[data-key="Backspace"] {
     background-color: var(--clr-orange400);
     color: var(--clr-slate50);
+    font-weight: bold;
 }
 
-.equal {
+button[data-key="="] {
     grid-column: span 2;
     background-color: var(--clr--lime600);
+    font-weight: bold;
     color: var(--clr-slate50);
-    font-size: var(--size-xl);
+    font-size: var(--size-3xl);
 }
